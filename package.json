@@ -1,0 +1,30 @@
+{
+  "name": "binance-trade-copier",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "argon2": "^0.28.3",
+    "binance-api-node": "^0.11.28",
+    "cookie-cutter": "^0.2.0",
+    "cookies": "^0.8.0",
+    "mongodb": "^4.2.2",
+    "next": "12.0.7",
+    "next-connect": "^0.11.0",
+    "node-binance-api": "^0.13.1",
+    "node-telegram-bot-api": "^0.56.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "web-worker": "^1.2.0",
+    "websocket": "^1.0.34",
+    "ws": "^8.4.0"
+  },
+  "devDependencies": {
+    "eslint": "8.5.0",
+    "eslint-config-next": "12.0.7"
+  }
+}
